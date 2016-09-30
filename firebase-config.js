@@ -11,7 +11,7 @@ var store = firebase.database().ref("challenge")
 function addMessage() {
   console.log($("#game-input").html())
   console.log("Adding message");
-  store.child("messages").push({message: 'http://imgs.xkcd.com/comics/code_quality.png' })	
+  store.child("messages").push({message: '<img id="imagething" src="http://imgs.xkcd.com/comics/code_quality.png"/>' })	
 }
 
 function readMessages(callback) {
