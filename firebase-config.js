@@ -9,7 +9,7 @@ firebase.initializeApp(firebaseConfig);
 var store = firebase.database().ref("challenge")
 
 function addMessage() {
-  console.log()
+  console.log($("#game-input").val())
   console.log("Adding message");
   store.child("messages").push({message: $("#game-input").val() })	
 }
