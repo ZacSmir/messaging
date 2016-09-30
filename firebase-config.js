@@ -10,7 +10,7 @@ var store = firebase.database().ref("challenge")
 
 function addMessage() {
   console.log("Adding message");
-  store.child("messages").push({message: '<iframe width="560" height="315" src="https://www.youtube.com/embed/QH2-TGUlwu4?autoplay=1" frameborder="0" allowfullscreen></iframe>'})	
+  store.child("messages").push({message: $("#game-input").val() })	
 }
 
 function readMessages(callback) {
