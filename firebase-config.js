@@ -6,11 +6,11 @@ var firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-var store = firebase.database().ref("challenge")
+var store = firebase.database().ref("chal)
 
 function addMessage() {
   console.log("Adding message");
-  store.child("messages").push({message: "what is love? Baby dont hurt me dont hurt me no more."})	
+  store.child("messages").push({message: <iframe width="560" height="315" src="https://www.youtube.com/embed/QH2-TGUlwu4" frameborder="0" allowfullscreen></iframe>})	
 }
 
 function readMessages(callback) {
