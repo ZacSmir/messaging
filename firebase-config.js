@@ -6,7 +6,7 @@ var firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-var store = firebase.database().ref("chal)
+var store = firebase.database().ref("challenge")
 
 function addMessage() {
   console.log("Adding message");
